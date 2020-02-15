@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Uncomment the following line to override the JVM search sequence
-# INSTALL4J_JAVA_HOME_OVERRIDE=
+ INSTALL4J_JAVA_HOME_OVERRIDE="/usr/lib/jvm/java-8-openjdk-amd64/jre/"
 # Uncomment the following line to add additional VM parameters
 # INSTALL4J_ADD_VM_PARAMS=
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AppConfig>
+    <GUIConfigs>
+        <AppPosition height="600" width="800" x="144" y="28" isMaximized="false"/>
+    </GUIConfigs>
+    <AppSettings>
+        <Download path="/home/v_bus/landsat8-bulk-downloader/bda/" recurring="true" fileNamePattern="Bulk Order %O/%D/%F" replaceSpacesWithUnderscores="false"/>
+    </AppSettings>
+</AppConfig>
