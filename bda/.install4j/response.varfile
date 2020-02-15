@@ -1,0 +1,8 @@
+#install4j response file for Bulk Download Application 1.4.1
+#Sat Feb 15 23:08:03 MSK 2020
+sys.languageId=en
+sys.symlinkDir=/usr/local/bin
+executeLauncherAction$Boolean=true
+sys.adminRights$Boolean=false
+sys.installationDir=/home/v_bus/Downloads/bda
+sys.programGroupDisabled$Boolean=false

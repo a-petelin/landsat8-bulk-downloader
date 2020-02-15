@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=Bulk Download Application
+Exec=/bin/sh "/home/v_bus/Downloads/bda/bda"
+Icon=/home/v_bus/Downloads/bda/.install4j/bda.png
+Categories=Application;

@@ -1,8 +1,9 @@
 #!/bin/bash
-jq="/c/Users/MstB/Downloads/jq-win64.exe"
+#jq="/c/Users/MstB/Downloads/jq-win64.exe"/usr/bin/jq
+jq="/usr/bin/jq"
 LOGIN=$1
 PWD=$2
-PWD='Thtnbrb|Nfv|Ud0plb|'
+#PWD='Thtnbrb|Nfv|Ud0plb|'
 
 FORM=$(curl -c login.cook -b login.cook -L 'https://earthexplorer.usgs.gov/inventory/documentation/json-api')
 CSTOKEN=$(echo $FORM | sed -e 's/>/>\
@@ -25,4 +26,4 @@ DATA=$(curl 'https://earthexplorer.usgs.gov/inventory/json/v/1.4.0/search?jsonRe
 RESULT=$(echo $DATA | $jq -j '.data.results[].entityId + " "')
 for ent in $RESULT; do curl -c login.cook -b login.cook -L 'https://earthexplorer.usgs.gov/order/addbulkscene?scenes='$ent'&collection_id=12864&originator=INVSVC' 2> /dev/null; done
 DATA=$(curl 'https://earthexplorer.usgs.gov/inventory/json/v/1.4.0/logout?jsonRequest=%7b%22apiKey%22:%22'$APIKEY'%22%7d')
-echo 'DATA=' $DATA
+echo 'DATA=' $DATA | jq -C

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fileLog>
+<createdFiles>
+<entry name=".install4j/i4jparams.conf" shared="false" uninstallMode="2"/>
+<entry name="BulkDownloadApplication.jar" shared="false" uninstallMode="0"/>
+<entry name="Bulk Download Application.desktop" shared="false" uninstallMode="2"/>
+<entry name=".install4j/autoUpdater.png" shared="false" uninstallMode="2"/>
+<entry name=".install4j/MessagesDefault" shared="false" uninstallMode="2"/>
+<entry name=".install4j/installation.log" shared="false" uninstallMode="0"/>
+<entry name=".install4j/i4j_extf_0_1ni1qsv.utf8" shared="false" uninstallMode="2"/>
+<entry name=".install4j/autoUpdater" shared="false" uninstallMode="0"/>
+<entry name=".install4j/user.jar" shared="false" uninstallMode="2"/>
+<entry name=".install4j/uninstall.png" shared="false" uninstallMode="2"/>
+<entry name=".install4j/i4j_extf_3_1ni1qsv_1qp61c0.png" shared="false" uninstallMode="2"/>
+<entry name="/home/v_bus/.local/share/applications/Bulk Download Application-0.desktop" shared="false" uninstallMode="2"/>
+<entry name=".install4j/bda.png" shared="false" uninstallMode="2"/>
+<entry name="uninstall" shared="false" uninstallMode="0"/>
+<entry name=".install4j/autoUninstall.0" shared="false" uninstallMode="0"/>
+<entry name=".install4j/i4j_extf_1_1ni1qsv_cwz6mn.png" shared="false" uninstallMode="2"/>
+<entry name=".install4j/response.varfile" shared="false" uninstallMode="0"/>
+<entry name=".install4j/i4jruntime.jar" shared="false" uninstallMode="2"/>
+<entry name=".install4j/i4j_extf_2_1ni1qsv_1sxzjn7.png" shared="false" uninstallMode="2"/>
+<entry name="bda" shared="false" uninstallMode="0"/>
+<entry name=".install4j/inst_jre.cfg" shared="false" uninstallMode="0"/>
+<entry name=".install4j/install.prop" shared="false" uninstallMode="0"/>
+<entry name=".install4j/stats.properties" shared="false" uninstallMode="2"/>
+</createdFiles>
+<createdDirs>
+<entry name=".install4j" shared="false" uninstallMode="0"/>
+<entry name="." shared="false" uninstallMode="0"/>
+</createdDirs>
+</fileLog>

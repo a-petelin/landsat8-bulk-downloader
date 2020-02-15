@@ -1,0 +1,173 @@
+[INFO] logger started at Sat Feb 15 23:07:29 MSK 2020
+[INFO] executable name: /home/v_bus/Downloads/bda_unix_1_4_1.sh
+[INFO] install4j version: 5.1.15 (build 5739)
+[INFO] Properties: 
+-- listing properties --
+awt.toolkit=sun.awt.X11.XToolkit
+java.specification.version=11
+sun.cpu.isalist=
+sun.jnu.encoding=UTF-8
+java.class.path=i4jruntime.jar:user.jar
+sun.awt.enableExtraMouseButtons=true
+java.vm.vendor=Debian
+sun.arch.data.model=64
+install4j.exeDir=/home/v_bus/Downloads/
+sun.font.fontmanager=sun.awt.X11FontManager
+java.vendor.url=https://tracker.debian.org/openjdk-11
+user.timezone=Europe/Moscow
+os.name=Linux
+java.vm.specification.version=11
+sun.java.launcher=SUN_STANDARD
+user.country=US
+sun.boot.library.path=/usr/lib/jvm/java-11-openjdk-amd64/lib
+sun.java.command=com.install4j.runtime.launcher.Launch...
+jdk.debug=release
+sun.cpu.endian=little
+user.home=/home/v_bus
+user.language=en
+java.specification.vendor=Oracle Corporation
+java.version.date=2020-01-14
+java.home=/usr/lib/jvm/java-11-openjdk-amd64
+file.separator=/
+java.vm.compressedOopsMode=32-bit
+line.separator=
+
+java.specification.name=Java Platform API Specification
+java.vm.specification.vendor=Oracle Corporation
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+exe4j.moduleName=/home/v_bus/Downloads/bda_unix_1_4_1.sh
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.runtime.version=11.0.6+10-post-Debian-1deb10u1
+user.name=v_bus
+path.separator=:
+i4j.vmov=true
+os.version=4.19.0-6-amd64
+java.runtime.name=OpenJDK Runtime Environment
+sun.java2d.noddraw=true
+file.encoding=UTF-8
+java.vm.name=OpenJDK 64-Bit Server VM
+install4j.jvmDir=/usr
+install4j.cwd=/home/v_bus/Downloads
+install4j.appDir=/home/v_bus/Downloads/
+java.vendor.url.bug=https://bugs.debian.org/openjdk-11
+java.io.tmpdir=/tmp
+java.version=11.0.6
+user.dir=/home/v_bus/Downloads/bda_unix_1_4_1....
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+exe4j.totalDataLength=1320870
+java.awt.printerjob=sun.print.PSPrinterJob
+sun.os.patch.level=unknown
+java.library.path=/usr/java/packages/lib:/usr/lib/x86_6...
+java.vendor=Debian
+java.vm.info=mixed mode, sharing
+java.vm.version=11.0.6+10-post-Debian-1deb10u1
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=55.0
+i4j.vpt=true
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalWin: false
+       Property failIfNotObtainedWin: true
+       Property obtainIfAdminMac: false
+       Property obtainIfNormalMac: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotRootUnix: false
+       Property allRequested: false
+       Property rollbackSupported: false
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+       thread name AWT-EventQueue-0
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+       checking writable with maximum
+       Variable changed: sys.installationDir=/home/v_bus/Downloads/bda[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property file: null
+       Property overwrite: true
+       Property excludedVariables: [sys.installationDir]
+       Property rollbackSupported: true
+       Response file /home/v_bus/Downloads/bda/.install4j/response.varfile does not exist
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property checkFreeSpace: true
+       Property installRuntime: true
+       Property updateBundledJre: true
+       Property validateApplicationId: false
+       Property sizeCalculatorScript: null
+       Property saveDownloadedFiles: false
+       Property triggerReboot: true
+       Property showFileNames: true
+       Property delay: false
+       Property fileFilterScript: null
+       Property directoryResolverScript: null
+       Property rollbackSupported: true
+       Install file: /home/v_bus/Downloads/bda/.install4j/autoUpdater; size: 10998 bytes; exists: false
+       File options set to: [fileTime: Wed Apr 17 14:00:46 MSK 2019, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/v_bus/Downloads/bda/.install4j/autoUpdater.png; size: 4831 bytes; exists: false
+       File options set to: [fileTime: Wed Apr 17 14:00:46 MSK 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/v_bus/Downloads/bda/.install4j/bda.png; size: 8249 bytes; exists: false
+       Install file: /home/v_bus/Downloads/bda/.install4j/uninstall.png; size: 5320 bytes; exists: false
+       Install file: /home/v_bus/Downloads/bda/BulkDownloadApplication.jar; size: 436494 bytes; exists: false
+       File options set to: [fileTime: Wed Apr 17 14:00:42 MSK 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/v_bus/Downloads/bda/bda; size: 10463 bytes; exists: false
+       File options set to: [fileTime: Wed Apr 17 14:00:46 MSK 2019, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/v_bus/Downloads/bda/uninstall; size: 11138 bytes; exists: false
+       File options set to: [fileTime: Wed Apr 17 14:00:46 MSK 2019, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/v_bus/Downloads/bda/.install4j/inst_jre.cfg; size: 35 bytes; exists: false
+       File options set to: [fileTime: Sat Feb 15 23:08:00 MSK 2020, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/v_bus/Downloads/bda/.install4j/i4jruntime.jar; size: 1041687 bytes; exists: false
+       File options set to: [fileTime: Sat Feb 15 23:08:00 MSK 2020, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/v_bus/Downloads/bda/.install4j/MessagesDefault; size: 32732 bytes; exists: false
+       Install file: /home/v_bus/Downloads/bda/.install4j/i4jparams.conf; size: 41459 bytes; exists: false
+       Install file: /home/v_bus/Downloads/bda/.install4j/stats.properties; size: 242 bytes; exists: false
+       Install file: /home/v_bus/Downloads/bda/.install4j/user.jar; size: 14910 bytes; exists: false
+       Install file: /home/v_bus/Downloads/bda/.install4j/i4j_extf_3_1ni1qsv_1qp61c0.png; size: 4831 bytes; exists: false
+       Install file: /home/v_bus/Downloads/bda/.install4j/i4j_extf_2_1ni1qsv_1sxzjn7.png; size: 2565 bytes; exists: false
+       Install file: /home/v_bus/Downloads/bda/.install4j/i4j_extf_1_1ni1qsv_cwz6mn.png; size: 1028 bytes; exists: false
+       Install file: /home/v_bus/Downloads/bda/.install4j/i4j_extf_0_1ni1qsv.utf8; size: 32732 bytes; exists: false
+       Execute action successful after 236 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property allUsers: true
+       Property unixSymlinks: true
+       Property linkDirectory: /usr/local/bin
+       Property categories: Application
+       Property unixMenuEntries: true
+       Property addUninstaller: true
+       Property programGroupName: 
+       Property addDefaultLauncherLinks: true
+       Property programGroupEntryConfigs: []
+       Property failForSymlinksNotCreated: false
+       Property uninstallerMenuName: Bulk Download Application Uninstaller
+       Property rollbackSupported: true
+       Install file: /home/v_bus/Downloads/bda/Bulk Download Application.desktop; size: 207 bytes; exists: false
+       File options set to: [fileTime: Sat Feb 15 23:08:00 MSK 2020, mode: 755, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/v_bus/.local/share/applications/Bulk Download Application-0.desktop; size: 207 bytes; exists: false
+       File options set to: [fileTime: Sat Feb 15 23:08:00 MSK 2020, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 8 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property itemName: Bulk Download Application 1.4.1
+       Property icon: null
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+       Variable changed: executeLauncherAction=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.finish.ExecuteLauncherAction [ID 233]: Execute action
+       Property launcherId: 23
+       Property arguments: null
+       Property rollbackSupported: false
+       Execute action successful after 519 ms
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished
